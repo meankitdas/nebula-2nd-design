@@ -2,27 +2,24 @@ import Stars from "./stars";
 import MainContent from "./maincontent";
 import Navbar from "./navbar";
 import Image from "next/image";
-import Mark from "../../public/pencil.webp";
-
+// import Mark from "../../public/pencil.webp";
+import MenuBox from "../animation/menuScreen/menuBox";
 
 // import { motion } from "framer-motion";
 
-
 import BottomNav from "./bottomNav";
 
-
-
 export default function MainPage() {
-
-
   return (
     <section className=" min-h-screen p-2 " id="about">
-      
       {/* we will suspend it in small screen */}
 
       <nav className="bg-white min-w-screen h-14 mx-10 my-5 rounded-2xl relative  text-black text-sm overflow-hidden hidden lg:block md:block">
         <Navbar />
       </nav>
+      <div className="block md:hidden">
+        <MenuBox />
+      </div>
 
       {/* stars image  */}
       {/* <div>

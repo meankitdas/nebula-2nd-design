@@ -6,41 +6,43 @@ export default function BottomNav() {
   return (
     <>
       <div className="flex justify-evenly  w-1/2">
-        <a href="">
-          <div className="flex flex-col  items-center">
-            <RiTeamFill className="text-5xl" />
-            <div>
-              <h4>Registeration</h4>
+        <div className="  ">
+          <a href="" className="flex flex-col h-full justify-between  items-center">
+            <RiTeamFill className="md:text-5xl text-2xl" />
+            <div className="">
+              <h4 className="text-xs md:text-base">Registeration</h4>
             </div>
-          </div>
-        </a>
-        <a href="">
-          <div className="flex flex-col   items-center">
-            <RiTeamFill className="text-5xl" />
+          </a>
+        </div>
+
+        <div className="">
+          <a href="" className="flex flex-col h-full justify-between items-center">
+            <RiTeamFill className="md:text-5xl text-2xl" />
             <div>
-              <h4>Teams</h4>
+              <h4 className="text-xs md:text-base">Teams</h4>
             </div>
-          </div>
-        </a>
+          </a>
+        </div>
       </div>
-      <RxDividerVertical className="text-5xl" />
+      <RxDividerVertical className="text-5xl " />
       <div className="flex justify-evenly w-1/2">
-        <a href="">
-          <div className="flex flex-col  items-center">
-            <GiEarthAmerica className="text-5xl" />
+        <div >
+          <a href="" className="flex flex-col h-full justify-between items-center">
+            <GiEarthAmerica className="md:text-5xl text-2xl" />
             <div>
-              <h4>College</h4>
+              <h4 className="text-xs md:text-base">College</h4>
             </div>
-          </div>
-        </a>
-        <a href="">
-          <div className="flex flex-col   items-center">
-            <GiEarthAmerica className="text-5xl" />
+          </a>
+        </div>
+
+        <div >
+          <a href="" className="flex flex-col h-full justify-between items-center">
+            <GiEarthAmerica className="md:text-5xl text-2xl" />
             <div>
-              <h4>Cities</h4>
+              <h4 className="text-xs md:text-base">Cities</h4>
             </div>
-          </div>
-        </a>
+          </a>
+        </div>
       </div>
     </>
   );

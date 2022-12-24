@@ -19,6 +19,7 @@ module.exports = {
       fontFamily: {
         dosis: ["Dosis", "sans-serif"],
         bungee: ["Bungee", "sans-serif"],
+        rubik: ["Rubik", "sans-serif"],
         ...defaultTheme.fontFamily,
       },
       screens: {

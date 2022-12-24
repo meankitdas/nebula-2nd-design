@@ -5,7 +5,7 @@ import {IoCalendarSharp} from "react-icons/io5"
 
 export default function MainContent() {
   return (
-    <div className="relative p-10 mb-4 md:ml-5 ml-0  mt-16">
+    <div className="relative md:p-10 p-7 mb-4 md:ml-5 ml-0  mt-16">
       <div className="  text-ourwhite">
         {/* <div className="mb-4 ">
           <Image src={jain} alt="jain" className="w-80 z-20 " />

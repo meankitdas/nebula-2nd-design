@@ -1,4 +1,4 @@
-![Logo](https://i.imgur.com/mcWTFiC_d.webp?maxwidth=760&fidelity=grand)
+
 # Nebula Hackathon
 
 This is the website for the national level - hackathon named "Nebula" conducting by Jain (Deemed-to-be) University.
@@ -29,10 +29,7 @@ then run the command below:
 - Integrate devfolio for backend
 
 
-## Screenshots
 
-![App Screenshot](https://i.imgur.com/ek464K2_d.webp?maxwidth=1520&fidelity=grand)
-![App Screenshot](https://i.imgur.com/yH8LDIN_d.webp?maxwidth=1520&fidelity=grand)
 
 ## Color Reference
 
