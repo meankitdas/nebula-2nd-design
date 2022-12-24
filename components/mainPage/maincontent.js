@@ -12,7 +12,7 @@ export default function MainContent() {
         </div> */}
         {/* <h2 className="text-2xl  mb-4 ">Presents</h2> */}
         <div className="mb-4  md:text-8xl text-6xl">
-          <h1 className="">Nebula</h1>
+          <h1 className="">India's Biggest</h1>
           <h1 className="">
             Tech <span className="text-secondary">Hackathon</span>
           </h1>
