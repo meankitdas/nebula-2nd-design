@@ -1,0 +1,32 @@
+{
+  "name": "nebula-1.0",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@motionone/utils": "^10.15.1",
+    "@next/font": "13.0.7",
+    "@react-three/fiber": "^8.9.1",
+    "eslint": "8.30.0",
+    "eslint-config-next": "13.0.7",
+    "framer-motion": "^8.0.1",
+    "lottie-react": "^2.3.1",
+    "next": "13.0.7",
+    "popmotion": "^11.0.5",
+    "react": "18.2.0",
+    "react-device-detect": "^2.2.2",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.7.1",
+    "styled-jsx": "^5.1.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.20",
+    "tailwindcss": "^3.2.4"
+  }
+}
