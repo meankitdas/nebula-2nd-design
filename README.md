@@ -29,8 +29,6 @@ then run the command below:
 - Integrate devfolio for backend
 
 
-
-
 ## Color Reference
 
 | Color             | Hex                                                                |
