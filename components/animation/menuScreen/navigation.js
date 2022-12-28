@@ -6,6 +6,7 @@ const variants = {
   open: {
     transition: { staggerChildren: 0.07, delayChildren: 0.2 },
     zIndex: 15,
+    
   },
   closed: {
     transition: { staggerChildren: 0.05, staggerDirection: -1 },
@@ -22,7 +23,7 @@ const nav = [
   { name: "FAQ", link: "#faq" },
 ];
 
-export const Navigation = ({toggle}) => (
+export const Navigation = ({ toggle }) => (
   <motion.ul className="unlist " variants={variants}>
     {nav.map((item) => (
       <MenuItem name={item.name} toggle={toggle} link={item.link} />
