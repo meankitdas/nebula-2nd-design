@@ -82,23 +82,23 @@ export default function SpeakerPage() {
   }
   return (
     <section className=" min-h-screen p-0  bg-white  md:block" id="speaker">
-      <div className="text-secondary text-4xl relative font-sans  ">
-        {/* <ParallaxText baseVelocity={-5}>Nebula Techfest</ParallaxText> */}
-        <ParallaxText baseVelocity={2}>nebula hackathon</ParallaxText>
-      </div>
+      {/* <div className="text-secondary text-4xl relative font-sans  "> */}
+      {/* <ParallaxText baseVelocity={-5}>Nebula Techfest</ParallaxText> */}
+      {/* <ParallaxText baseVelocity={2}>nebula hackathon</ParallaxText> */}
+      {/* </div> */}
       <div className=" h-screen ">
         {/* birth of Innovator */}
         <div className="flex w-full h-1/2 ">
           <BirthPage />
         </div>
-        <div className="text-secondary text-4xl relative font-sans   ">
-          <ParallaxText baseVelocity={-2}>
+        {/* <div className="text-secondary text-4xl relative font-sans   "> */}
+        {/* <ParallaxText baseVelocity={-2}>
             India's Biggest hackathon
-          </ParallaxText>
-          {/* <ParallaxText baseVelocity={2}>nebula hackathon</ParallaxText> */}
-        </div>
+          </ParallaxText> */}
+        {/* <ParallaxText baseVelocity={2}>nebula hackathon</ParallaxText> */}
+        {/* </div> */}
         {/* theme  */}
-        <div className="flex w-full h-1/2 bg-primary overflow-hidden">
+        <div className="flex w-full h-1/2  bg-primary overflow-hidden ">
           <ThemePage />
         </div>
       </div>
