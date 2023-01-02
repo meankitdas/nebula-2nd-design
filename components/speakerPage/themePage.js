@@ -39,7 +39,7 @@ export default function ThemePage() {
   return (
     <div className="w-full h-full flex md:flex-row-reverse justify-center items-center ">
       <div className="lg:w-2/3 md:mb-6 w-full flex   text-xs md:text-sm justify-center items-center m-2  md:ml-20">
-        <div className="lg:ml-10 md:w-full h-full   lg:mb-5 mb-0  ">
+        <div className="lg:ml-10 md:w-full h-full lg:mb-5 mb-0  ">
           <div className="flex-col flex md:flex-row w-full h-1/2  justify-center items-center">
             {theme1.map((item) => (
               <ThemeBox list={item.name} describtion={item.describtion} />

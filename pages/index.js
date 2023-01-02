@@ -3,6 +3,8 @@ import Head from "next/head";
 import MainPage from "../components/mainPage/mainPage";
 import SpeakerPage from "../components/speakerPage/speakerPage";
 import TimelinePage from "../components/timelinePage/timelinePage";
+import ThemeSection from "../components/speakerPage/themeSection";
+import PrizePage from "../components/prizePage/prizePage";
 
 // import { isMobile } from "react-device-detect";
 
@@ -19,8 +21,9 @@ export default function Home() {
         <MainPage />
 
         <SpeakerPage />
-
-        {/* <TimelinePage /> */}
+        <ThemeSection />
+        <PrizePage />
+        <TimelinePage />
        
 
       </main>
